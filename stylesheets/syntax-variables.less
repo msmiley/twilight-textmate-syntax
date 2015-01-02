@@ -1,0 +1,31 @@
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: #F8F8F8;
+@syntax-cursor-color: #A7A7A7;
+@syntax-selection-color: rgba(221, 240, 255, 0.2);
+@syntax-background-color: #202020;
+
+// Guide colors
+@syntax-wrap-guide-color: rgba(255, 255, 255, 0.25);
+@syntax-indent-guide-color: rgba(255, 255, 255, 0.25);
+@syntax-invisible-character-color: rgb(255, 255, 255);
+
+// For find and replace markers
+@syntax-result-marker-color: rgba(255, 255, 255, 0.25);
+@syntax-result-marker-color-selected: #F8F8F8;
+
+// Gutter colors
+@syntax-gutter-text-color: #F8F8F8;
+@syntax-gutter-text-color-selected: #F8F8F8;
+@syntax-gutter-background-color: rgb(62,62,64);
+@syntax-gutter-background-color-selected: rgba(255, 255, 255, 0.03);
+@syntax-gutter-border-color: rgb(83,83,85);
+
+// For git diff info. i.e. in the gutter
+// These are static and were not extracted from your textmate theme
+@syntax-color-renamed: #96CBFE;
+@syntax-color-added: #A8FF60;
+@syntax-color-modified: #E9C062;
+@syntax-color-removed: #CC6666;

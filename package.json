@@ -1,0 +1,11 @@
+{
+  "name": "twilight-textmate-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A syntax theme for the Atom Editor which aims to render as close as possible to the way Twilight renders on TextMate2",
+  "repository": "https://github.com/smiledawgg/twilight-textmate-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
