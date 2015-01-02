@@ -1,5 +1,3 @@
 # twilight-textmate-syntax theme
 
-A short description of your theme.
-
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+This package is an Atom Editor theme which attempt to render as closely as possible to the way the Twilight theme of TextMate 2 renders.
