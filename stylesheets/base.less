@@ -32,6 +32,7 @@
 
 .editor .indent-guide {
   color: @syntax-indent-guide-color;
+  white-space: normal;
 }
 
 .editor .invisible-character {
@@ -55,7 +56,13 @@
   background-color: @syntax-selection-color;
 }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+.editor.is-focused .line-number.cursor-line-no-selection {
+  background-color: rgb(83,82,85);
+  border-top: solid 1px rgb(87,87,87);
+  border-bottom: solid 1px rgb(87,87,87);
+}
+
+.editor.is-focused .line.cursor-line {
   background-color: rgba(255, 255, 255, 0.03);
 }
 
