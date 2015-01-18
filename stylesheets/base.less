@@ -1,11 +1,11 @@
 @import "syntax-variables";
 
-.editor {
+atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 }
 
-.editor .gutter {
+.gutter {
   background-color: @syntax-gutter-background-color;
   color: @syntax-gutter-text-color;
   border-right: solid 1px @syntax-gutter-border-color;
@@ -17,52 +17,52 @@
   padding-left: 8px;
 }
 
-.editor .gutter .line-number.cursor-line {
+.gutter .line-number.cursor-line {
   background-color: @syntax-gutter-background-color-selected;
   color: @syntax-gutter-text-color-selected;
 }
 
-.editor .gutter .line-number.cursor-line-no-selection {
+.gutter .line-number.cursor-line-no-selection {
   color: @syntax-gutter-text-color-selected;
 }
 
-.editor .wrap-guide {
+.wrap-guide {
   color: @syntax-wrap-guide-color;
 }
 
-.editor .indent-guide {
+.indent-guide {
   color: @syntax-indent-guide-color;
   white-space: normal;
 }
 
-.editor .invisible-character {
+.invisible-character {
   color: @syntax-invisible-character-color;
 }
 
-.editor .search-results .marker .region {
+.search-results .marker .region {
   background-color: transparent;
   border: @syntax-result-marker-color;
 }
 
-.editor .search-results .marker.current-result .region {
+.search-results .marker.current-result .region {
   border: @syntax-result-marker-color-selected;
 }
 
-.editor.is-focused .cursor {
+.is-focused .cursor {
   border-color: @syntax-cursor-color;
 }
 
-.editor.is-focused .selection .region {
+.selection .region {
   background-color: @syntax-selection-color;
 }
 
-.editor.is-focused .line-number.cursor-line-no-selection {
+.is-focused .line-number.cursor-line-no-selection {
   background-color: rgb(83,82,85);
   border-top: solid 1px rgb(87,87,87);
   border-bottom: solid 1px rgb(87,87,87);
 }
 
-.editor.is-focused .line.cursor-line {
+.is-focused .line.cursor-line {
   background-color: rgba(255, 255, 255, 0.03);
 }
 
